@@ -1,7 +1,7 @@
 from _ast import Num
 prime_numbers = 0 # intitializing to Zero
 Num = int(input("Enter Number to check: "))
-def is_prime_number(x):
+def is_prime(x):
     if x >= 2: 
         for y in range(2,x):
             if not ( x % y ): 
@@ -10,7 +10,7 @@ def is_prime_number(x):
         return False
     return True
 for i in range(0, Num):
-    if is_prime_number(i):
+    if is_prime(i):
         prime_numbers += 1
         print (i)
 
