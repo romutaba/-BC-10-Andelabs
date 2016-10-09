@@ -12,4 +12,4 @@ def fibonnaci(n):
 		for i in range (0, len(Fib_list)):
 			print (Fib_list[i]) #prints result in series
 
-print (fibonnaci(9))
+print (fibonnaci(5))
